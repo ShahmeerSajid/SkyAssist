@@ -11,12 +11,11 @@ You’ve got questions, and this chatbot has *all* the answers (well, all the im
 - **Bookings**: Need to hypothetically book an imaginary seat on a make-believe flight? Or want to make queries about Shahmeer Airline'swebsite/contact details? No Problem!
 - **General Airline Queries**: Curious about Shahmeer Airlines' "policies" or "services"? The chatbot is happy to humor you.
 - **Loyalty Program**: Dying to join the most exclusive (and totally non-existent) loyalty program, SkyMile Rewards? We’ve got perks that only your imagination can dream up!
-- **In-flight Entertainment**: Curious about what imaginary blockbusters and TV shows we stream on our make-believe flights? The chatbot has great recommendations!
+- **In-flight Entertainment**: Curious about what entertainment we can do on our make-believe flights? The chatbot has great recommendations!
 - **Dining on Board**: Gourmet meals or imaginary snacks? Ask about the incredible (fictional) dining experience on Shahmeer Airlines.
 - **COVID-19 Measures**: Curious about our pandemic protocols in the world of imagination? We take *fictional* safety seriously!
 - **Seating and Comfort**: Wondering how comfy your imaginary seat will be? Spoiler: It’s comfier than reality!
 - **Airplane History**: Want a (completely fabricated) history of our legendary fleet? The chatbot can spin some tales about our famous planes.
-- **Owner Name**: Ever wonder who’s behind this magnificent, imaginary airline? Yup, it’s Shahmeer—visionary, and master of make-believe aviation!
 - **Check-in Process**: Curious how to check in for a flight that doesn't actually exist? The chatbot can walk you through the smoothest imaginary check-in ever.
 - **Baggage Policies**: Wondering about our baggage policies for your make-believe trip? Ask us how many fictional bags you can bring! 
 
