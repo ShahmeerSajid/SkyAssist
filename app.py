@@ -160,7 +160,7 @@ def chatbot():
             # Add a final instruction to ensure the best and friendliest response is selected
             prompt.append({"role": "system", "content": "Please select the best response from the options provided above, and rephrase it to be more friendly and welcoming to the user. Your goal is to make the user feel valued, welcomed, and appreciated by the airline. Also add a few unique emojis in between depending on what answer you generate."})
             prompt.append({"role": "system", "content": "If the user asks for contact details, the office is located at 3433 Rue Durocher in Montreal. The phone number is +1(514)-713-2441. Shahmeer Airlines is based in Montreal, Canada. Website is www.flywithshahmeerairlines.com, email address is: flywithSAL@mail.jets.ca"})
-            prompt.append({"role": "system", "content": "Very Important: If none of the responses appropriately address the user's query,(if the user's query is extremely far off from all the responses), then apologize and state that the bot does not have an answer to this question, in a friendly and polite manner."})
+            prompt.append({"role": "system", "content": "Important: If none of the provided responses match the user's query (if the question is way too different from the available answers), kindly apologize and inform the user that the bot does not have an answer for their question. Politely suggest that they check the contact details for further assistance. Do not attempt to create or generate a new answer on your own."})
             
             # Call OpenAI API
             completion = openai.ChatCompletion.create(
