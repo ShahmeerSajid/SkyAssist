@@ -1,0 +1,5 @@
+# Ignore the config.py file where the API key is stored --> Safety Purposes!
+config.py
+
+# Ignore the __pycache__ directory where Python stores bytecode
+__pycache__/
