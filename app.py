@@ -23,11 +23,11 @@ from tensorflow.keras.models import load_model
 # Initialize Flask app for deploying the user interface :)
 app = Flask(__name__)
 
-# Setting up my OpenAI API Key
-# openai.api_key = "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"
 
-from config import Shahmeer_SAL_ChatBot_OpenAPI_Key
+### IMPORTING AND SECURELY LOADING MY OPENAI API KEY FROM config.py  --> (SECURITY PURPOSES)
+### This prevents hardcoding sensitive information in the code and sets the API key for making requests to the OpenAI API ... 
 import openai
+from config import Shahmeer_SAL_ChatBot_OpenAPI_Key
 openai.api_key = Shahmeer_SAL_ChatBot_OpenAPI_Key
 
 
