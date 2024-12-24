@@ -32,7 +32,7 @@ import openai
 import os
 
 # Load the OpenAI API key from the environment variables
-Shahmeer_SAL_ChatBot_OpenAPI_Key = os.environ.get("API_KEY")
+Shahmeer_SAL_ChatBot_OpenAPI_Key = os.environ.get("SAL_API_KEY")
 
 if not Shahmeer_SAL_ChatBot_OpenAPI_Key:
     raise ValueError("API_KEY environment variable not set!")
