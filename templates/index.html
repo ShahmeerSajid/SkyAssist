@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Shahmeer Airlines Chat-Bot</title>
+    <title> SkyAssist Chat-Bot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
 </head>
@@ -11,7 +11,7 @@
     <div class="chat-container">
         <div class="chat-header">
             <img src="{{ url_for('static', filename='logo.png') }}" alt="Shahmeer Airlines Logo">
-            <h1>  Shahmeer Airlines ChatBot</h1>
+            <h1>SkyAssist ChatBot</h1>
         </div>
         <div class="chat-box" id="chat-box">
             <!-- Messages will appear here -->
@@ -40,7 +40,7 @@
             })
             .then(response => response.json())
             .then(data => {
-                const botMessage = `<div class="chat-message bot-message"><span>   Shahmeer Airlines Chat-Bot:</span> ${data.reply}</div>`;
+                const botMessage = `<div class="chat-message bot-message"><span>SkyAssist:</span> ${data.reply}</div>`;
                 chatBox.innerHTML += botMessage;
                 chatBox.scrollTop = chatBox.scrollHeight;
             });
