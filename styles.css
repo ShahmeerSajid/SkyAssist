@@ -1,6 +1,6 @@
 body {
     background-color: #5c3730; /* Dark background */
-    background: url('../static/background_photo.jpg')no-repeat center center fixed;
+    background: url('static//background_photo.jpg')no-repeat center center fixed;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
     margin: 0;
