@@ -24,21 +24,21 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 
-### IMPORTING AND SECURELY LOADING MY OPENAI API KEY FROM config.py  --> (SECURITY PURPOSES)
-### This prevents hardcoding sensitive information in the code and sets the API key for making requests to the OpenAI API ... 
-#import openai
-#from config import Shahmeer_SAL_ChatBot_OpenAPI_Key
-#openai.api_key = Shahmeer_SAL_ChatBot_OpenAPI_Key
+## IMPORTING AND SECURELY LOADING MY OPENAI API KEY FROM config.py  --> (SECURITY PURPOSES)
+## This prevents hardcoding sensitive information in the code and sets the API key for making requests to the OpenAI API ... 
+import openai
+from config import Shahmeer_SAL_ChatBot_OpenAPI_Key
+openai.api_key = Shahmeer_SAL_ChatBot_OpenAPI_Key
 
 
-# Load the OpenAI API key from the environment variables
-SAL_ChatBot_OpenAPI_Key = os.environ.get("SAL_API_KEY")
+# # Load the OpenAI API key from the environment variables
+# SAL_ChatBot_OpenAPI_Key = os.environ.get("SAL_API_KEY")
 
-if not Shahmeer_SAL_ChatBot_OpenAPI_Key:
-    raise ValueError("API_KEY environment variable not set!")
+# if not Shahmeer_SAL_ChatBot_OpenAPI_Key:
+#     raise ValueError("API_KEY environment variable not set!")
 
-# Set OpenAI API key for the OpenAI library
-openai.api_key = SAL_ChatBot_OpenAPI_Key
+# # Set OpenAI API key for the OpenAI library
+# openai.api_key = SAL_ChatBot_OpenAPI_Key
 
 # Set default encoding to utf-8
 os.environ["PYTHONIOENCODING"] = "utf-8"

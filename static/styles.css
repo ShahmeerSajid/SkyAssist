@@ -1,69 +1,59 @@
 body {
-    background-color: #5c3730; /* Dark background */
-    background: url('static//background_photo.jpg')no-repeat center center fixed;
-    background-size: 100%;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    background: url("background_photo.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #FFD700; /* Gold color for text */
+    justify-content: start;
 }
-
 
 .chat-container {
-    background-color: #282828; /* Darker container background */
+    background-color: #282828;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 1500px; /* Set a maximum width for larger screens */
-    max-height: 1800px; /* Set a maximum height for larger screens */
-    width: 1500px;
-    max-width: 100%;
+    flex: 0.38;
+    padding: 20px;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    transform: translateX(-1250px); /* Shift the box to the left */
-    height: 80vh;
 }
+
 
 .chat-header {
     background-color: #FFD700; /* Gold header */
-    padding: 100px;
+    padding: 20px;
+    height: 6rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-
+.chat-header img {
+    width: 120px;
+}
 
 .chat-header h1 {
     font-family: 'Lora', sans-serif;
     color: #1f1f1f; /* Dark text for header */
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 900;
-    margin: 20px 0 0 0;
+    margin-left: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif; /* Apply Montserrat font family */
     letter-spacing: 1px; /* Add some letter spacing for a modern look */
-    text-transform: none;
 }
 
 .chat-box {
-    flex-grow: 1;
     padding: 10px;
     overflow-y: auto;
     background-color: #1f1f1f; /* Dark background */
     color: #FFD700; /* Gold text */
-    height: calc(100% - 140px);
+    flex: 1;
 }
 
 .chat-input {
     display: flex;
-    padding: 70px;
     background-color: #282828; /* Dark input background */
     border-top: 1px solid #FFD700;
-    height: 100px;
+    height: fit-content;
 }
 
 .chat-input input {
@@ -73,33 +63,32 @@ body {
     border-radius: 4px;
     background-color: #1f1f1f; /* Dark input field */
     color: #FFD700; /* Gold text */
-    font-size: 3rem;
+    font-size: 1.5rem;
     outline: none;
-    height: 100%
+    height: 1rem;
 }
 
 .chat-input button {
     background-color: #FFD700;
     border: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
     margin-left: 10px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #1f1f1f; /* Dark text */
     font-weight: 500;
-    height:100%;
+    height: 100%;
 }
 
 .chat-input button:hover {
     background-color: #e6b800;
 }
-
 .chat-message {
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 5px;
     border-radius: 8px;
-    font-size: 2rem;
+    font-size: 1rem;
     max-width: 80%;
 }
 
@@ -107,12 +96,10 @@ body {
     background-color: #FFD700; /* Gold for user messages */
     color: #1f1f1f; /* Dark text for user messages */
     align-self: flex-end;
-    font-size: 3.5rem;
 }
-
 .bot-message {
     background-color: #2c2c2c; /* Dark background for bot messages */
     color: #FFD700; /* Gold text for bot messages */
     align-self: flex-start;
-    font-size: 3rem;
+    font-size: 1rem;
 }
