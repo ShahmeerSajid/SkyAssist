@@ -43,7 +43,7 @@ body {
     font-size: 6rem;
     font-weight: 900;
     margin: 20px 0 0 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif; /* Apply Montserrat font family */
     letter-spacing: 1px; /* Add some letter spacing for a modern look */
     text-transform: none;

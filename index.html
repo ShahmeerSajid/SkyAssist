@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyAssist Chat-Bot</title>
-    <link rel="stylesheet" href="static/styles.css">
+    <title> SkyAssist Chat-Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <img src="static/logo.png" alt="Shahmeer Airlines Logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Shahmeer Airlines Logo">
             <h1>SkyAssist ChatBot</h1>
         </div>
         <div class="chat-box" id="chat-box">
