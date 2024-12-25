@@ -1,10 +1,10 @@
-# Shahmeer Airlines ChatBot
+# SkyAssist
 Ever wondered what it would be like if you owned an airline? Well, imagine the possibilities! You’d be the captain of the skies (or at least, the captain of a really good in-flight snack menu). You could fly to exotic destinations like Atlantis or, you know, the Moon. Forget cramped legroom—on your airline, every seat is first-class, and the only delays are for extra dessert service.
 
-Welcome aboard the **Shahmeer Airlines ChatBot**, your trusty (and totally fictional) travel assistant! 
+Welcome aboard the **Shahmeer Airlines ChatBot, SkyAssist**, your trusty (and totally fictional) travel assistant! 
 Powered by a robust machine learning model, the bot is trained on over 60 different intents, making it capable of handling a wide variety of questions with wit and charm. Whether you're asking about flight details, bookings, or something more imaginative, this chatbot responds with engaging and helpful answers to ensure your aviation experience is fun, interactive, and maybe even inspiring (even if only in your imagination)!!
 
-### What can you ask the Shahmeer Airlines ChatBot?
+### What can you ask the SkyAssist?
 You’ve got questions, and this chatbot has *all* the answers (well, all the imaginary ones)! Here are just a *few* examples of the quirky, fun things you can ask to keep your journey through Shahmeer Airlines’ make-believe world entertaining:
 
 - **Flight Details**: Want to know if Shahmeer Airlines flies to Atlantis or the Moon? Just ask!
